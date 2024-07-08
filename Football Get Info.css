@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(to right, #e66465, #9198e5);
+
+}
+
+.get-info {
+ display: block;
+ margin: auto;
+ border-radius: 12px;
+ font-size: 32px;
+ font-family: "";
+ background-color: red;
+ color: white;
+ transition: background-color 0.8s ease;
+ padding: 10px 20px;
+}
+
+.get-info:hover {
+ background-color:green;
+}
+
+.welcome {
+ display: flex;
+ justify-content: center;
+ border-width: 2px;
+ border-style: solid;
+ border-color: yellow;
+ border-radius: 32px;
+ padding: 10px; 
+}
+
+.player-input-container {
+ display: flex;
+ align-items: center;
+}
+
+input[type="text"] {
+ margin-left: 10px;
+ padding: 5px;
+ border-radius: 5px;
+ border: 5px solid gold;
+}
+
+
+p {
+ font-size: 23px;
+}
+
+b {
+ color: lightblue;
+}
+
+#playerCutout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
+  }
+  

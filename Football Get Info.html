@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="Football Get Info.js" defer></script>
+	<link href="Football Get Info.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="favicon-32x32.png" type="image/x-icon">
+	<title>Football Get Info On Players</title>
+</head>
+<body>
+		
+	<div class="welcome">
+		<p>Hello! Welcome to my website! Here, you can see a player and their achievements. Just remember that this website is for fun, and that players can be more than their stats. <br>
+			An example of my website can be used like this: type "Heung-Min Son" in the input box for player, and "Tottenham" for team. Thank you for using my website!</p> 
+	  </div>
+	  
+	  <div class="player-input-container">
+		<p>Please type in player's <b><u>name</u></b> here:</p>
+	  <input type="text" id="Player_Name"> 
+	  </div>
+	  <div class="player-input-container">
+		<p>Please type in player's <b><u>team</u></b> here:</p>
+	   <input type="text" id="Player_Team"> 
+	  </div>
+	  
+	  
+	  
+	  <button class="get-info" onclick="getPlayerID()">Get Info</button>
+
+	  <div class="milestones-container">
+        <h2>Milestones:</h2>
+        <ul id="milestones-list"></ul>
+    </div>
+</body>
+</html>
